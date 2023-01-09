@@ -1,0 +1,19 @@
+@media(max-width:998px) {
+    .grid .grid1{
+        grid-template-columns: repeat(1, 1fr);
+  
+    }
+    .gridshop{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media(max-width:576px ) {
+    .header a{
+    font-size: 12px ;
+}
+.container .gridshop {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+}

@@ -1,0 +1,243 @@
+$black: #000000;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.head {
+    .header {
+        display: flex;
+        justify-content: space-between;
+        padding-left: 50px;
+        padding-right: 50px;
+        padding-top: 30px;
+        padding-bottom: 31px;
+
+
+
+        a {
+
+            color: $black ;
+            text-decoration: none;
+            font-weight: 400;
+            font-size: 13px;
+            letter-spacing: 1.4px;
+        }
+
+        .ah {
+            padding-left: 24px;
+        }
+
+
+    }
+}
+
+.promo {
+    background-image: url(../img/Rectangle.png);
+    background-size: cover;
+    min-height: 504px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.text {
+    color: #FFFFFF;
+    text-align: center;
+
+    h1 {
+        font-weight: 400;
+        font-size: 43px;
+        // line-height: 50px;
+    }
+
+    p {
+        line-height: 50px;
+        font-weight: 400;
+        font-size: 15px;
+        letter-spacing: 0.8px;
+    }
+}
+
+.textmid {
+    display: flex;
+    justify-content: center;
+
+
+    .tx {
+        margin-top: 80px;
+        text-align: center;
+        color: #000000;
+
+        h1 {
+            font-weight: 400;
+            font-size: 43px;
+            line-height: 70px;
+        }
+
+        p {
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 48px;
+            letter-spacing: 0.8px;
+
+            color: #A0A0A0;
+        }
+
+        h6 {
+            font-weight: 400;
+            font-size: 13px;
+            letter-spacing: 1.4px;
+            color: #000000;
+        }
+    }
+}
+
+.grid {
+    max-width: 1330px;
+    margin: 0 auto;
+    padding-top: 50px;
+    text-align: center;
+
+
+    .grid1 {
+        background-size: cover;
+        gap: 25px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+       
+    }
+
+    .gridimg1 {
+        display: flex;
+        align-items: flex-end;
+        background-image: url(../img/grid1.png) ;
+        background-repeat: no-repeat;
+        min-height: 440px;
+    }
+
+    .gridimg2 {
+        display: flex;
+        align-items: flex-end;
+        background: url(../img/grid2.png);
+        background-repeat: no-repeat;
+        min-height: 440px;
+    }
+
+    .gridimgtext {
+        width: 100%;
+        padding-top: 40px;
+        background-color: #FFFFFF;
+
+        h1 {
+            font-weight: 400;
+            font-size: 27px;
+            line-height: 70px;
+            color: #000000;
+        }
+
+        p {
+            font-weight: 400;
+            font-size: 13px;
+            letter-spacing: 1.4px;
+            color: #000000;
+        }
+    }
+}
+
+.textshop {
+    text-align: center;
+    margin-top: 130px;
+
+    h1 {
+        font-weight: 400;
+        font-size: 33px;
+        line-height: 70px;
+        color: #000000;
+    }
+
+    p {
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 18px;
+        letter-spacing: 0.8px;
+        color: #A0A0A0;
+    }
+
+}
+
+.kimchi {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    margin-top: 52px;
+
+    .kimchi1 {
+        border-radius: 30%;
+        width: 7px;
+        height: 7px;
+        background-color: #000000;
+
+    }
+}
+
+.shop {
+   
+
+    .container{
+        padding-top: 24px;
+        max-width: 1330px;
+        margin: 0 auto;
+    }
+    .gridshop {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 25px;
+        background-size: cover;
+    }
+
+    .item1 {
+        display: flex;
+        align-items: flex-end;
+        background-image: url(../img/iphone.png);
+        min-height: 430px;
+    }
+
+    .item2 {
+        display: flex;
+        align-items: flex-end;
+        background-image: url(../img/laptop.png);
+        min-height: 430px;
+    }
+
+    .item3 {
+        display: flex;
+        align-items: flex-end;
+        background-image: url(../img/planshet.png);
+        min-height: 430px;
+    }
+
+    .item4 {
+        display: flex;
+        align-items: flex-end;
+        background-image: url(../img/monitor.png);
+        min-height: 430px;
+    }
+
+    .neger {
+        width: 100%;
+        background-color: #FFFFFF;
+        padding-top: 20px;
+
+        p {
+            font-weight: 400;
+            font-size: 13px;
+            line-height: 21px;
+            letter-spacing: 0.7px;
+            color: #A0A0A0;
+        }
+    }
+}
